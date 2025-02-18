@@ -22,8 +22,6 @@ ul {
 }
 
 .container {
-  width: 90%;
-  max-width: 1100px;
   margin: auto;
 }
 
@@ -31,9 +29,9 @@ ul {
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 60px;
-  padding: 20px 0;
+  padding: 0 100px;
   font-size: 13px;
 }
 
@@ -84,4 +82,25 @@ ul {
   visibility: hidden;
   pointer-events: none;
   transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Offer */
+.offer {
+  background: #0067b8;
+  color: #fff;
+  height: 60px;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer h2 {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.offer h2:hover {
+  border-bottom: 1.5px solid #fff;
 }
