@@ -150,3 +150,41 @@ ul {
 .showcase .btn {
   margin: 20px 120px;
 }
+
+/* Link Icons */
+.icons {
+  padding: 60px 0;
+}
+
+.icons ul {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+  padding: 0;
+}
+
+.icons ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.icons ul li i {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.icons ul li span {
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #0067b8;
+}
