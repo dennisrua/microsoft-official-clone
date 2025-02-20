@@ -25,6 +25,12 @@ ul {
   margin: auto;
 }
 
+h1 {
+  padding-bottom: 12px;
+  font-weight: 500;
+  margin-left: 80px;
+}
+
 /* Nav */
 .main-nav {
   display: flex;
@@ -194,7 +200,6 @@ ul {
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 1300px;
   margin: auto;
 }
 
@@ -202,7 +207,6 @@ ul {
   display: flex;
   justify-content: center;
   gap: 20px;
-  width: 100%;
   max-width: 1100px;
   width: 100%;
   padding: 0 40px;
@@ -240,3 +244,38 @@ ul {
 }
 
 /* Game Pass */
+.game-pass {
+  height: 500px;
+  background: url(/dist/img/Highlight-Game-Pass-Update-September-2024_VP4-1260x600.avif)
+    no-repeat center center/cover;
+  margin-bottom: 90px;
+  margin-top: 90px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: #fff;
+}
+
+.game-pass .pass {
+  width: 40%;
+  padding: 150px 0 0 90px;
+}
+
+.game-pass .pass h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.game-pass .pass p {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+/* Business */
+.business {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 40px;
+}
